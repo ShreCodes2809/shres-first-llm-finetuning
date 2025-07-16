@@ -1,0 +1,2 @@
+FROM llama3.2:1b
+ADAPTER /Users/shreyashsahare28/Documents/SHREYASH/MASTERS/ADDITIONAL_PROJECTS/shres-first-llm-finetuning/checkpoints
