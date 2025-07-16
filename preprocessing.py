@@ -8,7 +8,7 @@ with open("pftech1data.json", "r") as f:
         for pairs in chunk['generated']:
             question, answer = pairs["question"], pairs['answer']
             context_pair = {
-                'question': f"Context: f{chunk['context']} {question}",
+                'question': question,
                 'answer': answer
                 }
             instructions.append(context_pair)
